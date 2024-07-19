@@ -20,12 +20,17 @@ pip install -r requirements.txt
 
 ### Generate dataset 
 ```bash
-python3 generate_dataset.py
+python3 generate_data.py
 ```
 
 You can also change a bunch of settings by writing:
 ```bash
-python3 generate_dataset.py -h
+python3 generate_data.py -h
+```
+
+If you have tensorflow, you can also use the mnist dataset they provide:
+```bash
+python3 generate_data_tensorflow.py
 ```
 
 ### Visualize dataset
